@@ -27,7 +27,7 @@ echo "<br>";
 echo "<br>";
 
 $week = rand(0,6);
-if ($week=0){
+if ($week==0){
     echo "Danas je ponedeljak.";
 } else if ($week==1){
     echo "Danas je utorak.";
@@ -57,12 +57,22 @@ echo "Zbir brojeva " . $a . ", " . $b . " i " . $c . " je " . $d;
 echo "<br>";
 echo "<br>";
 
-$a=array("ponedeljak"=>"0","utorak"=>"1","sreda"=>"2","cetvrtak"=>"3", "petak" =>"4","subota"=>"5","nedelja"=>"6");
-echo "Danas je: ";
-print_r(array_rand($a,1));
-
-
-
+$week =3;
+if ($week==0){
+    echo "Danas je ponedeljak.";
+} else if ($week==1){
+    echo "Danas je utorak.";
+} else if ($week==2){
+    echo "Danas je sreda.";
+ } else if ($week==3){
+    echo "Danas je cetvrtak.";
+ }  else if ($week==4){
+    echo "Danas je petak.";
+ }  else if ($week==5){
+    echo "Danas je subota.";
+ }  else if ($week==6){
+    echo "Danas je nedelja.";
+ } 
 
 
 //novi yadatak br 3:
