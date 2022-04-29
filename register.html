@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title></title>
+  
+</head>
+
+<body>
+  
+    <form action="register.php" method="get">
+        <fieldset>
+            <legend>Prijavi se na kurs!</legend>
+
+            <label for="name">Ime</label>
+            <input type="text" name="name" id="name" placeholder="Dodaj ime">
+            <br>
+            <br>
+            <label for="prezime">Prezime</label>
+            <input type="text" name="prezime" id="prezime" placeholder="Dodaj prezime">
+            <br>
+            <br>
+            <label for="pol">Pol</label>
+            <input type="radio" name="pol" id="pol" value="m">Musko
+            <input type="radio" name="pol" id="pol" value="z">Zensko
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="jovanovicanja2102@gmail.com" value="">
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" value="asdasdasd">
+            <br>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" value="asdasdasd">
+            <br>
+            <br>
+
+            <label for="kursevi"> Kursevi: </label>
+
+            <input type="checkbox" name="kursevi[]" value="engleski">
+            <label for="engleski">Engleski</label>
+            <input type="checkbox" name="kursevi[]" value="nemacki">
+            <label for="nemacki">Nemacki</label>
+            <input type="checkbox" name="kursevi[]" value="francuski">
+            <label for="francuski">Francuski</label>
+            <br>
+            <br>
+            <label for="iskustvo">Da li ste vec isli na kurs jezika?</label>
+            <select name="iskustvo">
+                <option value="radio"></option>
+
+                <option value="radio">Da</option>
+                <option value="radio">Ne</option>
+
+            </select>
+            <br>
+            <br>
+
+            <label for="slika">Ubaci svoju sliku</label>
+            <input type="file" name="slika" id="slika">
+            <br>
+            <br>
+
+            <button name="submit" type="submit">Submit</button>
+            <button name="reset" type="reset"><a href="register.html"> Ponisti</a></button>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
