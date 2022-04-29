@@ -29,17 +29,17 @@ echo "<br>";
 $week = rand(0,6);
 if ($week=0){
     echo "Danas je ponedeljak.";
-} else if ($week=1){
+} else if ($week==1){
     echo "Danas je utorak.";
-} else if ($week=2){
+} else if ($week==2){
     echo "Danas je sreda.";
- } else if ($week=3){
+ } else if ($week==3){
     echo "Danas je cetvrtak.";
- }  else if ($week=4){
+ }  else if ($week==4){
     echo "Danas je petak.";
- }  else if ($week=5){
+ }  else if ($week==5){
     echo "Danas je subota.";
- }  else if ($week=6){
+ }  else if ($week==6){
     echo "Danas je nedelja.";
  } 
 
@@ -52,6 +52,30 @@ $c = 4;
 $d = $a + $b + $c;
 echo "Zbir brojeva " . $a . ", " . $b . " i " . $c . " je " . $d;  
 
+
+//novi yadatak br 2 :
+echo "<br>";
+echo "<br>";
+
+$a=array("ponedeljak"=>"0","utorak"=>"1","sreda"=>"2","cetvrtak"=>"3", "petak" =>"4","subota"=>"5","nedelja"=>"6");
+echo "Danas je: ";
+print_r(array_rand($a,1));
+
+
+
+
+
+//novi yadatak br 3:
+echo "<br>";
+echo "<br>";
+
+$t=2;
+$y=1;
+$u=6;
+
+$a = array($t,$y,$u,);
+echo "Zbir brojeva $t , $y i $u je: ";
+        print_r(array_sum($a));
 
 
 ?>
