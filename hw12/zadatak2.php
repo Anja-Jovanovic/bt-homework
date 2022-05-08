@@ -39,35 +39,7 @@ echo $kolicina . " komada plocica";
  } 
  }
 
-/*
 
- "<br>";
-
- "<br>";
- 
- 
- //if (is_null($plocica))
- {
- echo 'Variable is  NULL';
- }
- else
- {
- echo 'Variable is not NULL';
- }
- 
- "<br>";
- "<br>";
- 
- if (is_null($povrsina))
- {
- echo 'Variable is  NULL';
- }
- else
- {
- echo 'Variable is not NULL';
- }
- */
- 
 
 
 ?>
