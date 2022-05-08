@@ -1,0 +1,349 @@
+body {
+    display: grid;
+    width: 1000px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/pozadina.jpg);
+}
+
+header {
+    border: 3px solid white;
+    border-radius: 15px;
+    height: 90px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(117, 76, 72 );
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 600px;
+    padding-left: 0px;
+
+}
+
+nav ul {
+    margin-left: 22%;
+    text-decoration: dotted;
+}
+
+li {
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 5px;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    
+
+}
+nav ul li a{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+  
+}
+
+.sredina a{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+  
+}
+
+.container {
+    display: flex;
+
+}
+
+aside {
+    width: 250px;
+    height: 750px;
+    border: 2px solid white;
+    border-radius: 15px;
+    display: grid;
+    margin: 3px;
+    padding: 0px;
+}
+
+.prvi {
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 3px;
+    height: 180px;
+    background-color: rgb(117, 76, 72 );
+
+
+}
+
+.drugi {
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 3px;
+    height: 350px;
+    background-color: rgb(117, 76, 72 );
+
+}
+
+.treci {
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 3px;
+    height: 180px;
+    background-color: rgb(117, 76, 72 );
+   
+
+}
+
+.crveno {
+
+    margin-top: 10px;
+}
+
+.plavo {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.zuto {
+     margin-top: 15px;
+  
+}
+
+form {
+    display: grid;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.izaberi {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+label {
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: white;
+
+}
+
+main {
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 3px;
+    padding: 0px; 
+    width: 730px;
+    height: 750px;
+    display: grid;
+}
+
+.prvired {
+    display: flex;
+
+}
+
+.drugired {
+    display: flex;
+}
+
+.trecired {
+    display: flex;
+
+}
+
+.sredina {
+    background-color: rgb(117, 76, 72 );
+    border-radius: 15px;
+    border: 2px solid white;
+    width: 233px;
+    height: 240px;
+    margin: 3px;
+}
+
+.title {
+    font-size: 20px;
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.cena_i_dugme {
+    display: grid;
+    float: right;
+}
+
+.cena {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 0%;
+    font-size: 20px;
+    color: white;
+}
+
+.korpa {
+    height: 40px;
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 30px;
+    background-color: rgb(117, 76, 72 );
+    border-radius: 15px;
+   border-color: white;
+    font-size: 12px;
+    color: white;
+}
+
+.korpa:hover {
+    background-color:  rgb(98, 72, 117);
+    transition: 0.7s;
+}
+
+img {
+    margin-left: 20px;
+}
+
+.sredina img {
+    width: 45%;
+    height: 160px;
+    border-radius: 15px;
+    margin-top: 0px;
+    margin-right: 4px;
+    border: 2px dotted white;
+}
+
+footer {
+    background-color: rgb(117, 76, 72 );
+    border: 3px solid white;
+    border-radius: 15px;
+    margin: 5px;
+    height: 130px;
+    padding-top: 10px;
+
+}
+
+footer a{
+    color: white;
+}
+
+.footer {
+    display: flex;
+    font-size: 17px;
+    color: white;
+    margin: 0px;
+    margin-left: 20px;
+  
+}
+
+
+.literatura{
+    display: grid;
+    width:100px;
+  
+}
+
+.navigacija{
+display: grid;
+margin-top: 0px;
+
+
+}
+
+
+.bottom{
+    margin: 0px;
+    width: 100px;
+}
+.copyright{
+    text-align: right;
+    margin: 0px;
+    margin-left: 600px;
+    margin-top: 90px;
+}
+
+.gotobtn {
+    border: none;
+    background-color: rgb(98, 72, 117);
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 0px;
+    height: 50px;
+    line-height: 28px;
+    width: 160px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+   
+}
+
+.gotobtn a {
+    color: white;
+    background-color: none;
+}
+
+
+
+
+/*responsiveee 992*/
+
+
+@media(max-width:992px){
+
+    body{
+        width: 992px;
+        height: auto;
+    }
+    
+    header{
+        margin: 0px;
+        margin-left: 20px;
+        width: 950px;
+    }
+    
+aside{
+    margin: 0px;
+    margin-left: 20px;
+    width: 220px;
+}
+
+    main{
+        width: 720px;
+    
+    }
+
+.prvired .drugired .trecired{
+
+    width: 720px;
+}
+    
+.sredina{
+    width: 230px;
+}
+
+    footer{
+        margin: 0px;
+        margin-left: 20px;
+        width: 950px;
+    }
+    
+    .copyright{
+        margin-left: 600px;
+        margin-top: 90px;
+    
+    
+    }
+
+}
+
+
+

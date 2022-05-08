@@ -1,0 +1,211 @@
+body {
+    display: grid;
+    width: 1000px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:url(../img/pozadina.jpg);
+}
+
+header {
+    border: 3px solid white;
+    border-radius: 15px;
+    height: 90px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(117, 76, 72 );
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 600px;
+    padding-left: 0px;
+
+}
+
+nav ul {
+    margin-left: 22%;
+    text-decoration: dotted;
+}
+
+li {
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 5px;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+
+}
+nav ul li a{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+form{
+    border: 3px solid white;
+    border-radius: 15px;
+    height: 400px;
+    width: 350px;
+    background-color: rgb(117, 76, 72 );
+    padding-top: 30px;
+    margin-top: 0px;
+}
+
+label {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+input[type=text]{
+    border-radius: 5px;
+    border: none;
+}
+
+
+input[type=email]{ 
+border-radius: 5px;
+border: none;
+}
+
+
+textarea{
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+input[type=submit]{
+    margin-left: 10px;
+    height: 30px;
+    background-color: rgb(117, 76, 72 );
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover {
+    background-color:  rgb(98, 72, 117);
+    transition: 0.7s;
+}
+
+footer {
+    background-color: rgb(117, 76, 72 );
+    border: 3px solid white;
+    border-radius: 15px;
+    margin: 5px;
+    height: 130px;
+    padding-top: 10px;
+
+}
+
+footer a{
+    color: white;
+}
+.footer {
+    display: flex;
+    font-size: 17px;
+    color: white;
+    margin: 0px;
+    margin-left: 20px;
+  
+}
+
+
+.literatura{
+    display: grid;
+    width:100px;
+}
+
+.navigacija{
+display: grid;
+margin-top: 0px;
+
+}
+
+.bottom{
+    margin: 0px;
+}
+.copyright{
+    text-align: right;
+    margin: 0px;
+    margin-left: 630px;
+    margin-top: 95px;
+}
+.gotobtn {
+    border: none;
+    background-color: rgb(98, 72, 117);
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 0px;
+    height: 50px;
+    line-height: 28px;
+    width: 160px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+   
+}
+
+.gotobtn a {
+    color: white;
+    background-color: none;
+}
+
+
+
+@media(max-width:992px){
+
+    body{
+        width: 992px;
+        height: auto;
+    }
+    
+    header{
+        margin: 0px;
+        margin-left: 20px;
+        width: 950px;
+    }
+    
+    main{
+        width: 992px;
+    }
+    footer{
+        margin: 0px;
+        margin-left: 20px;
+        width: 950px;
+    }
+    
+    .copyright{
+        margin-left: 600px;
+        margin-top: 90px;
+    
+    
+    }
+
+form{
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 350px;
+    width: 370px;
+    padding-left: 20px;
+}
+
+    
+    
+}
